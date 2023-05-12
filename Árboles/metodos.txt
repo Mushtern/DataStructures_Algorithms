@@ -1,0 +1,35 @@
+void Arbol::posorden(NodoArbol* aux) { //POSORDEN
+    if (aux != NULL) { 
+        posorden(aux->getIzq());
+        posorden(aux->getDer());
+        cout << aux->getRegistro()<<endl;
+    }
+}
+
+bool Arbol::buscaNodo(int _ip) { //BUSCA NODO
+    if (root == NULL) {
+        cout << "Arbol vacio"<<endl;
+        return false;
+    }
+    else {
+        NodoArbol* aux1 = root;
+        NodoArbol* aux2 = root;
+        while (aux2 != NULL && aux2->getIP() != _ip) {
+            aux1 = aux2;
+            if (aux2->getIP() > _ip) {
+                aux2 = aux2->getIzq();
+            }
+            else {
+                aux2 = aux2->getDer();
+            }
+        }
+        if (aux2 != NULL) {
+            cout << "Se encontro el dato " << _ip << endl;
+            return true;
+        }
+        else {
+            cout << "No se encontro el dato." << endl;
+            return false;
+        }
+    }
+}

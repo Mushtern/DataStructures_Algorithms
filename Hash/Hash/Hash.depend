@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1606232976 source:c:\users\g531gt-bq095t\dropbox\mi pc (laptop-7cohv0mn)\documents\tec 3er semestre\estructuras de datos\hash\hash\main.cpp
+	<iostream>
+	"Hash.h"
+
+1606232926 source:c:\users\g531gt-bq095t\dropbox\mi pc (laptop-7cohv0mn)\documents\tec 3er semestre\estructuras de datos\hash\hash\hash.cpp
+	"Hash.h"
+	<iostream>
+	<fstream>
+
+1606233030 c:\users\g531gt-bq095t\dropbox\mi pc (laptop-7cohv0mn)\documents\tec 3er semestre\estructuras de datos\hash\hash\hash.h
+	<iostream>
+	<vector>
+
