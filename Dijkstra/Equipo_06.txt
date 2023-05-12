@@ -1,0 +1,2 @@
+Francisco Tame Cruz: Algoritmo Dijkstra para la primera y segunda problemática.
+Juan Pablo Yáñez Gonzáñez: Algoritmo Ford Fulkerson y Distancia entre dos puntos para la tercera y cuarta problemática.

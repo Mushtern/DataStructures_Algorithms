@@ -1,0 +1,9 @@
+Número de nodos: 4
+
+Matriz de adyacencia:
+
+0 1 1 0
+1 1 0 0
+1 0 1 0
+0 1 0 1
+
