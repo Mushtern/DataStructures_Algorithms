@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1631035667 source:c:\users\g531gt-bq095t\dropbox\mi pc (laptop-7cohv0mn)\documents\tec 4to semestre\algoritmos avanzados\string hashing\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+

@@ -1,0 +1,4 @@
+Número de elementos: 4
+Beneficios: 7 2 5 8
+Pesos: 1 9 2 3 
+Tamaño de la mochila: 7
